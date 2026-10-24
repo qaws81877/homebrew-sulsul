@@ -12,7 +12,7 @@ Requires macOS 15 or later. The cask installs the notarized `Sulsul.dmg` from th
 
 ## Updates
 
-Sulsul updates itself (Sulsul > Check for Updates…), so the cask is marked `auto_updates true` and a plain `brew upgrade` leaves it alone. This tap tracks the latest release only for new installs.
+Sulsul updates itself (Sulsul > Check for Updates…), so the cask is marked `auto_updates true`. With current Homebrew, `brew upgrade` also upgrades it when the installed app is older than the version in this tap, and does nothing when the app has already updated itself to that version. Install and upgrade through brew need the tap to be current, so a new release can take a short while to show up here.
 
 ## Uninstall
 
