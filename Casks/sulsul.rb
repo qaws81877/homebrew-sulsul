@@ -1,6 +1,6 @@
 cask "sulsul" do
-  version "5.0"
-  sha256 "3105f269b8b7588ff0ee46ed6578b8cb73d3eb4868a83d9c31c3f464d1a9e630"
+  version "5.0.1"
+  sha256 "7938d123349fbbdd90f2c2a2ba3b163bbd57eda238bf553bee17994ba4a454ec"
 
   url "https://github.com/qaws81877/sulsul/releases/download/v#{version}/Sulsul.dmg"
   name "Sulsul"
